@@ -1,5 +1,10 @@
-Some slides on diffusions from a variational perspective.
+Some work in progress slides on diffusions from a variational perspective.
 
+Mixture of gaussian to VAE to a latent variable model with tons of latent variables, each the same shape as the data, which leads to a diffusion model.
+
+Score matching loss doesn't pop out of nowhere, but instead, is what you get when you derive the elbo for this latent variable model and then apply Stein's Lemma. Then the usual diffusion losses are just that elbo with some constants and scalings dropped.
+
+These were mostly meant to have a spoken-along lecture but I'll try to edit them to be standalone.
 
 References. A few of the images in the above slides come from
 

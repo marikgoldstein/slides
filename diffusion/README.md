@@ -15,9 +15,13 @@ References. A few of the images in the above slides come from
 
 A few of the equations/plots come from 
 
-- [The VAE paper](https://arxiv.org/abs/1312.6114)
-- [The DDPM paper](https://arxiv.org/abs/2006.11239)
-- [The CLD paper](https://arxiv.org/abs/2112.07068)
+- [Kingma and Welling, VAE](https://arxiv.org/abs/1312.6114)
+- [Sohl-Dickstein et al, Deep Unsupervised Learning using Nonequilibrium Thermodynamics](https://arxiv.org/abs/1503.03585)
+- [Ho et al, DDPMs](https://arxiv.org/abs/2006.11239)
+- [Dockhorn et al, Crtically-Damped Langevin](https://arxiv.org/abs/2112.07068)
+- [Huang et al, variational perspective on diffusions](https://arxiv.org/abs/2106.02808)
+
+The variational perspective is there right in Sohl-Dickstein 2015 and Ho 2020. Then in 2021, Huang, Kingma, Song, and others show that the continuous time objective can yield an elbo too.
 
 A few more images come from soon to be posted work with collaborators and will be credited here soon.
 
